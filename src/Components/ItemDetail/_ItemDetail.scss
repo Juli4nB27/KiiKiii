@@ -1,0 +1,71 @@
+.contenedorCardDetail{
+    width: 1360px;
+    height: 620px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem 17rem 17rem 17rem;
+    .imagenCardDetail{
+        height: 565px;
+        padding-bottom: 1rem;
+    }
+    .precioCardDetail{
+        font-size: 24px;
+    }
+    .precioDescDetail{
+        font-size: 17px;
+        font:bold;
+    }
+    .msjOnAdd{
+        text-decoration: none;
+        margin-bottom: 1rem;
+        font-size: medium;
+        font-weight: bold;
+        font-family: 'Niveau Grotesk', monospace ;
+        border: none;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .divContBtns{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .divFinalizarCompra{
+            margin-top: 1rem;
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            .btnFinalizarCompra{
+                padding: 0.5rem;
+                margin: 0.5rem;
+                background-color: white;
+                border: 1px solid black;
+                font-family: 'Niveau Grotesk', monospace ;
+            }
+            .btnFinalizarCompra:hover{
+                font-family: 'Niveau Grotesk', monospace ;
+                transition: 0.5s;
+                border: 1px solid black;
+                background-color: rgb(59, 141, 59);
+            }
+        }
+        .btnSeguirComprando{
+            text-decoration: none;
+            margin-top: 1rem;
+            padding: 0.5rem;
+            background-color: white;
+            border: 1px solid black;
+            font-family: 'Niveau Grotesk', monospace ;
+        }
+        .btnSeguirComprando:hover{
+            text-decoration: none;
+            font-family: 'Niveau Grotesk', monospace ;
+            transition: 0.5s;
+            border: 1px solid black;
+            background-color: rgb(47, 170, 143);
+        }
+    }
+}

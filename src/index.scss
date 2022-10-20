@@ -1,0 +1,42 @@
+
+
+
+@import './Components/NavBar/NavBar';
+
+//Import itemListConteiner
+@import './Components/ItemListConteiner/ItemListConteiner';
+
+//Import itemDetailConteiner
+@import './Components/ItemDetailContainer/ItemDetailContainer';
+
+@import './styles/resets';
+
+//Cart widget
+@import './Components/CartWidget/carritoNav';
+
+//Import de los breackpoints
+@import './styles/BreackPoints';
+
+@import "bootstrap/scss/bootstrap";
+@import "./Components/Carrusel/Carrusel";
+
+//Import de la cards
+@import './Components/ItemList/ItemList';
+@import './Components/Item/Item';
+
+//Import de la card detail
+@import './Components/ItemDetail/ItemDetail';
+
+
+//Import Contador y botones
+@import './Components/ItemCount/ItemCount';
+
+//footer
+@import './Components/Footer/Footer';
+
+//_Cart 
+@import './views/Cart/Cart';
+
+@import './views/Checkout/Checkout';
+
+@import './views/Checkout/Form';

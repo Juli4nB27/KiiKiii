@@ -1,0 +1,93 @@
+.contentCheckout{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    .contentFormCheck{
+        margin-right: 2rem;
+        margin-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-right: 6rem;
+        .titleForm{
+            font-weight: 500;
+            font-size: 24px;
+            border-bottom: 2px solid black;
+            margin-bottom: 20px;
+            font-family: 'JetBrains Mono', monospace;
+        }
+    }
+    .contentDetalleCheck{ 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        padding-left: 8rem;
+        font-family: 'JetBrains Mono', monospace;
+        .titleResumenCompra{
+            width: 400px;
+            font-weight: 400;
+            font-size: 24px;
+            border-bottom: 2px solid black;
+            margin-bottom: 20px;
+        }
+        .contentItemsCheck{
+            height: fit-content;
+            border-bottom: 2px solid black;
+            margin-bottom: 1rem;
+            .itemEnCheckout{
+                margin-bottom: 1rem;
+                width: 400px;
+                display: flex;
+                .contentImagenCheckout{
+                    margin-right: 10px;
+                    .cartImagenCheckout{
+                        width: 100px;
+                    }
+                }
+                .contentInfoCheckout{
+                    width: 300px;
+                    display: flex;
+                    flex-direction: column;
+                    .contentTituloCheckout{
+                        width: 100%;
+                        font-size: 24px;
+                        font-weight: 500;
+                    }
+                    .contentCantAndPrecio{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        .pCountCheck, .pPriceCheck{
+                            margin-bottom: 0px;
+                        }
+                    }
+                }
+            }
+        }
+        .contentTotal{
+            .totalCheck{
+                font-size: 24px;
+            }
+            .btnVolverInicio{
+                text-align: center;
+                border: 1px solid black;
+                background: white;
+                color: rgb(0, 0, 0);
+                font-family: 'JetBrains Mono', monospace;
+                height: 2rem;
+                border-radius: 1px;
+                position: relative;
+                top: 4rem;
+            }
+            .btnVolverInicio:hover{
+                text-align: center;
+                background: rgba(255, 0, 0, 0.774);
+                color: rgb(0, 0, 0);
+                height: 2rem;
+                border-radius: 1px;
+            }
+            
+        }  
+    }
+}

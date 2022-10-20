@@ -1,0 +1,41 @@
+.count{
+    width: auto;
+    .contContador{
+        width: auto;
+        display: flex;
+        justify-content: center;
+        button{
+            color: black;
+            border: none;
+            background-color: white;
+            padding: 0rem 0.6rem 0rem 0.6rem;
+            font-size: 1.4rem;
+            font-family: 'Niveau Grotesk', monospace ;
+            border-radius: 100px;
+        }
+        span{
+            display: flex;
+            font-size: 1.4rem;
+            padding: 0rem 0.6rem 0rem 0.6rem;
+            justify-content: center;
+            font-family: 'Niveau Grotesk', monospace ;
+        }
+    }
+    .divAgregarCarrito{
+        width: auto;
+        display: flex;
+        justify-content: center;
+        .btnAgregarCarrito{
+            background-color: white;
+            margin-top: 0.5rem;
+            padding: 0.5rem;
+            border: 2px solid black;
+            font-family: 'Niveau Grotesk', monospace ;
+            font-style:inherit;
+        }
+        .btnAgregarCarrito:hover{
+            background-color: rgba(128, 128, 128, 0.158);
+            transition: 0.5s;
+        }
+    }
+}

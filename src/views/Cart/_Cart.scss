@@ -1,0 +1,141 @@
+
+
+.App-mainCart{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: max-content;
+    height: 200vh;
+    padding-top: 10rem;
+    .divContMainCart{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 50px;
+        flex-direction: column;
+        margin-left: 4rem;
+        .divContTotal{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            .cont{
+                display: flex;
+                align-items: center;
+                flex-direction: row;
+                border: 1px solid rgba(128, 128, 128, 0.158);
+                padding: 2rem;
+                .contenedorCart{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    margin-right: 2rem;
+                    .imagenCartDetail{
+                        height: 300px;
+                    }    
+                }
+                .CartContenido{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    .cantidadCartDetail{
+                        padding-top: 8rem;
+                        font-size: medium;
+                    }
+                    .precioCartDetail{
+                        font-size: large;
+                        font-weight: bold;
+                    }
+                    .btnBorrar{
+                        position: relative;
+                        bottom: 0.5rem;
+                        left: 12rem;
+                        padding: 0.2rem;
+                        background-color: white;
+                        border: 1px solid black;
+                        font-family: 'Niveau Grotesk', monospace ;
+                    }
+                    .btnBorrar:hover{
+                        font-family: 'Niveau Grotesk', monospace ;
+                        transition: 0.5s;
+                        border: 1px solid black;
+                        background-color: rgba(255, 0, 0, 0.753);
+                    }
+                }
+            } 
+        }
+        
+    }
+    .contDetallePago{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        right: 5rem;
+        top:15rem ;
+        border: 2px solid rgba(128, 128, 128, 0.158);
+        padding: 2rem;
+        .detalleCant{
+            font-size: 30px;
+            font-family: 'Niveau Grotesk', monospace ;
+        }
+        .btnBorrarTodo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0.5rem;
+            background-color: white;
+            border: 1px solid black;
+            font-family: 'Niveau Grotesk', monospace ;
+            margin-bottom: 1rem;
+        }
+        .btnBorrarTodo:hover{
+            font-family: 'Niveau Grotesk', monospace ;
+            transition: 0.5s;
+            border: 1px solid black;
+            background-color: rgba(255, 0, 0, 0.753);
+        }
+        .btnFinalizarCompra{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0.5rem;
+            background-color: white;
+            border: 1px solid black;
+            font-family: 'Niveau Grotesk', monospace ;
+            text-decoration: none;
+            color: black;
+        }
+        .btnFinalizarCompra:hover{
+            font-family: 'Niveau Grotesk', monospace ;
+            transition: 0.5s;
+            border: 1px solid black;
+            background-color: rgba(85, 211, 47, 0.753);
+            text-decoration: none;
+            color: black;
+        }
+        .disable{
+            display: none;
+        }
+        .linkVolverProd{
+            text-decoration: none;
+            .botonVolverInicio{
+                display: flex;
+                text-decoration: none;
+                justify-content: center;
+                align-items: center;
+                padding: 0.5rem;
+                background-color: white;
+                border: 1px solid black;
+                font-family: 'Niveau Grotesk', monospace ;
+            }
+            .botonVolverInicio:hover{
+                font-family: 'Niveau Grotesk', monospace ;
+                transition: 0.5s;
+                border: 1px solid black;
+                background-color: rgba(46, 43, 43, 0.753);
+            }
+        }
+    }
+}
+

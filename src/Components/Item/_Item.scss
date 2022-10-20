@@ -1,0 +1,42 @@
+.contenedorCard{
+    padding-bottom: 0.5rem;
+    background: white;
+    .imagenCard{
+        width: 350px;
+    }
+    .tituloCard{
+        display: flex;
+        justify-content: center;
+        font-size: 18px;
+        margin-top: 2rem;
+        font-family: 'Niveau Grotesk', monospace ;
+    }
+    .precioCard{
+        display: flex;
+        justify-content: center;
+        font-family: 'JetBrains Mono', monospace ;
+    }
+    .btnDetalle{
+        border: none;
+        font-size: 1.4rem;
+        margin-top: 0.5rem;
+        padding: 0rem 0.6rem 0rem 0.6rem;
+        border: 2px solid black;
+        font-family: 'Niveau Grotesk', monospace ;
+        font-style:inherit;
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        text-decoration: none;
+    }
+    .btnDetalle:hover{
+        background-color: rgba(128, 128, 128, 0.158);
+        transition: 0.5s;
+    }
+    .BtnDetalle{
+        border: none;
+        background-color: transparent;
+        list-style: none;
+        text-decoration: none;
+    }
+}
